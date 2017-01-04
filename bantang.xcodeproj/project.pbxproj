@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9378FBCD175019E0786F5FF9 /* Pods_bantang.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB0D22D000C247C5D9E88599 /* Pods_bantang.framework */; };
+		AB56596EEF9934B2A9CFD62E /* Pods_bantangUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C2C162BF5045C5F2DE2854 /* Pods_bantangUITests.framework */; };
 		AF1194711DD2F5CD00FA9248 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1194701DD2F5CD00FA9248 /* AppDelegate.swift */; };
 		AF1194731DD2F5CD00FA9248 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1194721DD2F5CD00FA9248 /* ViewController.swift */; };
 		AF1194761DD2F5CE00FA9248 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF1194741DD2F5CE00FA9248 /* Main.storyboard */; };
@@ -14,6 +16,23 @@
 		AF11947B1DD2F5CE00FA9248 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF1194791DD2F5CE00FA9248 /* LaunchScreen.storyboard */; };
 		AF1194861DD2F5CE00FA9248 /* bantangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1194851DD2F5CE00FA9248 /* bantangTests.swift */; };
 		AF1194911DD2F5CE00FA9248 /* bantangUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1194901DD2F5CE00FA9248 /* bantangUITests.swift */; };
+		AF1194B01DD2FA7D00FA9248 /* QTBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1194AF1DD2FA7D00FA9248 /* QTBaseViewController.swift */; };
+		AF1194B21DD2FB1500FA9248 /* QTHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1194B11DD2FB1500FA9248 /* QTHomeViewController.swift */; };
+		AF1194B41DD2FBED00FA9248 /* QTHomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF1194B31DD2FBED00FA9248 /* QTHomeViewController.storyboard */; };
+		AF1194B61DD2FC2A00FA9248 /* QTDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1194B51DD2FC2A00FA9248 /* QTDiscoverViewController.swift */; };
+		AF1194B81DD2FC9900FA9248 /* QTMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1194B71DD2FC9900FA9248 /* QTMessageViewController.swift */; };
+		AF1194BA1DD2FCA900FA9248 /* QTMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1194B91DD2FCA900FA9248 /* QTMineViewController.swift */; };
+		AF1194BC1DD2FD6B00FA9248 /* QTDiscoverViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF1194BB1DD2FD6B00FA9248 /* QTDiscoverViewController.storyboard */; };
+		AF1194BE1DD2FD7F00FA9248 /* QTMessageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF1194BD1DD2FD7F00FA9248 /* QTMessageViewController.storyboard */; };
+		AF1194C01DD2FD9500FA9248 /* QTMineViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF1194BF1DD2FD9500FA9248 /* QTMineViewController.storyboard */; };
+		AF595C151E1C9F660026937C /* QTListHomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF595C131E1C9F660026937C /* QTListHomeTableViewCell.swift */; };
+		AF595C161E1C9F660026937C /* QTListHomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF595C141E1C9F660026937C /* QTListHomeTableViewCell.xib */; };
+		AF595C181E1CA9D10026937C /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF595C171E1CA9D10026937C /* Kingfisher.framework */; };
+		AF5F5D711E1B7872000BA8C7 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5F5D701E1B7872000BA8C7 /* SwiftyJSON.framework */; };
+		AF5F5D731E1B7F00000BA8C7 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5F5D721E1B7F00000BA8C7 /* Common.swift */; };
+		AFD9EB6A1E1B504F00AA5117 /* index.json in Resources */ = {isa = PBXBuildFile; fileRef = AFD9EB691E1B504F00AA5117 /* index.json */; };
+		AFD9EB6C1E1B511B00AA5117 /* QTHomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD9EB6B1E1B511B00AA5117 /* QTHomeModel.swift */; };
+		B95EAB55A1EF17DE6668DDA6 /* Pods_bantangTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF936FC6D16AE74FAA4E03F9 /* Pods_bantangTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +53,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		555C160D20559EDCBD083227 /* Pods-bantang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bantang.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bantang/Pods-bantang.debug.xcconfig"; sourceTree = "<group>"; };
+		6A66FBC98B1243A67646B16D /* Pods-bantangUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bantangUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-bantangUITests/Pods-bantangUITests.release.xcconfig"; sourceTree = "<group>"; };
+		71EC0F6668AB0326BB36D3F2 /* Pods-bantang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bantang.release.xcconfig"; path = "Pods/Target Support Files/Pods-bantang/Pods-bantang.release.xcconfig"; sourceTree = "<group>"; };
+		9EE6F46AC6EF4F8CB9AF5CBF /* Pods-bantangTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bantangTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bantangTests/Pods-bantangTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AF11946D1DD2F5CD00FA9248 /* bantang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bantang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF1194701DD2F5CD00FA9248 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF1194721DD2F5CD00FA9248 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +70,27 @@
 		AF11948C1DD2F5CE00FA9248 /* bantangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bantangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF1194901DD2F5CE00FA9248 /* bantangUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bantangUITests.swift; sourceTree = "<group>"; };
 		AF1194921DD2F5CE00FA9248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF1194AF1DD2FA7D00FA9248 /* QTBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QTBaseViewController.swift; sourceTree = "<group>"; };
+		AF1194B11DD2FB1500FA9248 /* QTHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QTHomeViewController.swift; path = ../../Discover/Controller/QTHomeViewController.swift; sourceTree = "<group>"; };
+		AF1194B31DD2FBED00FA9248 /* QTHomeViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = QTHomeViewController.storyboard; path = ../../Discover/Controller/QTHomeViewController.storyboard; sourceTree = "<group>"; };
+		AF1194B51DD2FC2A00FA9248 /* QTDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QTDiscoverViewController.swift; sourceTree = "<group>"; };
+		AF1194B71DD2FC9900FA9248 /* QTMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QTMessageViewController.swift; sourceTree = "<group>"; };
+		AF1194B91DD2FCA900FA9248 /* QTMineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QTMineViewController.swift; sourceTree = "<group>"; };
+		AF1194BB1DD2FD6B00FA9248 /* QTDiscoverViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = QTDiscoverViewController.storyboard; sourceTree = "<group>"; };
+		AF1194BD1DD2FD7F00FA9248 /* QTMessageViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = QTMessageViewController.storyboard; sourceTree = "<group>"; };
+		AF1194BF1DD2FD9500FA9248 /* QTMineViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = QTMineViewController.storyboard; sourceTree = "<group>"; };
+		AF595C131E1C9F660026937C /* QTListHomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QTListHomeTableViewCell.swift; sourceTree = "<group>"; };
+		AF595C141E1C9F660026937C /* QTListHomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QTListHomeTableViewCell.xib; sourceTree = "<group>"; };
+		AF595C171E1CA9D10026937C /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = "../../Library/Developer/Xcode/DerivedData/bantang-eshxepdkwtqoudajymhceamwpmnu/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework"; sourceTree = "<group>"; };
+		AF5F5D701E1B7872000BA8C7 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../Library/Developer/Xcode/DerivedData/bantang-eshxepdkwtqoudajymhceamwpmnu/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		AF5F5D721E1B7F00000BA8C7 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		AFD9EB691E1B504F00AA5117 /* index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = index.json; sourceTree = "<group>"; };
+		AFD9EB6B1E1B511B00AA5117 /* QTHomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QTHomeModel.swift; sourceTree = "<group>"; };
+		B53E1F4D814CB8615A84F976 /* Pods-bantangUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bantangUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bantangUITests/Pods-bantangUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB0D22D000C247C5D9E88599 /* Pods_bantang.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bantang.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7C2C162BF5045C5F2DE2854 /* Pods_bantangUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bantangUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2090E97C6981DB83690E0F7 /* Pods-bantangTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bantangTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-bantangTests/Pods-bantangTests.release.xcconfig"; sourceTree = "<group>"; };
+		FF936FC6D16AE74FAA4E03F9 /* Pods_bantangTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bantangTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +98,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF595C181E1CA9D10026937C /* Kingfisher.framework in Frameworks */,
+				AF5F5D711E1B7872000BA8C7 /* SwiftyJSON.framework in Frameworks */,
+				9378FBCD175019E0786F5FF9 /* Pods_bantang.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B95EAB55A1EF17DE6668DDA6 /* Pods_bantangTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB56596EEF9934B2A9CFD62E /* Pods_bantangUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +130,8 @@
 				AF1194841DD2F5CE00FA9248 /* bantangTests */,
 				AF11948F1DD2F5CE00FA9248 /* bantangUITests */,
 				AF11946E1DD2F5CD00FA9248 /* Products */,
+				B404523CECEDC0B92AEAB372 /* Pods */,
+				CAECDE2131F30F254BE4B60D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +148,13 @@
 		AF11946F1DD2F5CD00FA9248 /* bantang */ = {
 			isa = PBXGroup;
 			children = (
+				AF5F5D741E1BA45A000BA8C7 /* Resource */,
+				AFD9EB681E1B504F00AA5117 /* Data */,
+				AF1194AE1DD2FA3400FA9248 /* Base */,
+				AF11949E1DD2F64700FA9248 /* Discover */,
+				AF11949F1DD2F64700FA9248 /* Home */,
+				AF1194A01DD2F64700FA9248 /* Message */,
+				AF1194A11DD2F64700FA9248 /* Mine */,
 				AF1194701DD2F5CD00FA9248 /* AppDelegate.swift */,
 				AF1194721DD2F5CD00FA9248 /* ViewController.swift */,
 				AF1194741DD2F5CE00FA9248 /* Main.storyboard */,
@@ -125,6 +183,191 @@
 			path = bantangUITests;
 			sourceTree = "<group>";
 		};
+		AF11949E1DD2F64700FA9248 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				AF1194A21DD2F71A00FA9248 /* Controller */,
+				AF1194A31DD2F71A00FA9248 /* Model */,
+				AF1194A41DD2F71A00FA9248 /* View */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		AF11949F1DD2F64700FA9248 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AF1194A51DD2F72500FA9248 /* Controller */,
+				AF1194A61DD2F72500FA9248 /* Model */,
+				AF1194A71DD2F72500FA9248 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AF1194A01DD2F64700FA9248 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				AF1194A81DD2F73200FA9248 /* Controller */,
+				AF1194A91DD2F73200FA9248 /* Model */,
+				AF1194AA1DD2F73200FA9248 /* View */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		AF1194A11DD2F64700FA9248 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				AF1194AB1DD2F73B00FA9248 /* Controller */,
+				AF1194AC1DD2F73B00FA9248 /* Model */,
+				AF1194AD1DD2F73B00FA9248 /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		AF1194A21DD2F71A00FA9248 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AF1194B51DD2FC2A00FA9248 /* QTDiscoverViewController.swift */,
+				AF1194BB1DD2FD6B00FA9248 /* QTDiscoverViewController.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AF1194A31DD2F71A00FA9248 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AF1194A41DD2F71A00FA9248 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AF1194A51DD2F72500FA9248 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AF1194B11DD2FB1500FA9248 /* QTHomeViewController.swift */,
+				AF1194B31DD2FBED00FA9248 /* QTHomeViewController.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AF1194A61DD2F72500FA9248 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AFD9EB6B1E1B511B00AA5117 /* QTHomeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AF1194A71DD2F72500FA9248 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AF595C131E1C9F660026937C /* QTListHomeTableViewCell.swift */,
+				AF595C141E1C9F660026937C /* QTListHomeTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AF1194A81DD2F73200FA9248 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AF1194B71DD2FC9900FA9248 /* QTMessageViewController.swift */,
+				AF1194BD1DD2FD7F00FA9248 /* QTMessageViewController.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AF1194A91DD2F73200FA9248 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AF1194AA1DD2F73200FA9248 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AF1194AB1DD2F73B00FA9248 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AF1194B91DD2FCA900FA9248 /* QTMineViewController.swift */,
+				AF1194BF1DD2FD9500FA9248 /* QTMineViewController.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AF1194AC1DD2F73B00FA9248 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AF1194AD1DD2F73B00FA9248 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AF1194AE1DD2FA3400FA9248 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				AF1194AF1DD2FA7D00FA9248 /* QTBaseViewController.swift */,
+				AF5F5D721E1B7F00000BA8C7 /* Common.swift */,
+			);
+			name = Base;
+			path = Discover/Base;
+			sourceTree = "<group>";
+		};
+		AF5F5D741E1BA45A000BA8C7 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		AFD9EB681E1B504F00AA5117 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				AFD9EB691E1B504F00AA5117 /* index.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B404523CECEDC0B92AEAB372 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				555C160D20559EDCBD083227 /* Pods-bantang.debug.xcconfig */,
+				71EC0F6668AB0326BB36D3F2 /* Pods-bantang.release.xcconfig */,
+				9EE6F46AC6EF4F8CB9AF5CBF /* Pods-bantangTests.debug.xcconfig */,
+				E2090E97C6981DB83690E0F7 /* Pods-bantangTests.release.xcconfig */,
+				B53E1F4D814CB8615A84F976 /* Pods-bantangUITests.debug.xcconfig */,
+				6A66FBC98B1243A67646B16D /* Pods-bantangUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CAECDE2131F30F254BE4B60D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF595C171E1CA9D10026937C /* Kingfisher.framework */,
+				AF5F5D701E1B7872000BA8C7 /* SwiftyJSON.framework */,
+				BB0D22D000C247C5D9E88599 /* Pods_bantang.framework */,
+				FF936FC6D16AE74FAA4E03F9 /* Pods_bantangTests.framework */,
+				D7C2C162BF5045C5F2DE2854 /* Pods_bantangUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +375,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF1194951DD2F5CE00FA9248 /* Build configuration list for PBXNativeTarget "bantang" */;
 			buildPhases = (
+				6E1DC855C2159A7A1A9E3506 /* [CP] Check Pods Manifest.lock */,
 				AF1194691DD2F5CD00FA9248 /* Sources */,
 				AF11946A1DD2F5CD00FA9248 /* Frameworks */,
 				AF11946B1DD2F5CD00FA9248 /* Resources */,
+				E76F96BCA95D146729A097D0 /* [CP] Embed Pods Frameworks */,
+				D408126431A747CD214A457E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +395,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF1194981DD2F5CE00FA9248 /* Build configuration list for PBXNativeTarget "bantangTests" */;
 			buildPhases = (
+				B0CCE52DA7EF8A731BD1BE8D /* [CP] Check Pods Manifest.lock */,
 				AF11947D1DD2F5CE00FA9248 /* Sources */,
 				AF11947E1DD2F5CE00FA9248 /* Frameworks */,
 				AF11947F1DD2F5CE00FA9248 /* Resources */,
+				8135A034ED6F102412BE4F2B /* [CP] Embed Pods Frameworks */,
+				9E2CCB2D6A8FFD43EB0A4CDE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +416,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF11949B1DD2F5CE00FA9248 /* Build configuration list for PBXNativeTarget "bantangUITests" */;
 			buildPhases = (
+				E79CE9FACD5CBFB624BB8EF1 /* [CP] Check Pods Manifest.lock */,
 				AF1194881DD2F5CE00FA9248 /* Sources */,
 				AF1194891DD2F5CE00FA9248 /* Frameworks */,
 				AF11948A1DD2F5CE00FA9248 /* Resources */,
+				FE817B54A3CAC2F3D4C9CF8B /* [CP] Embed Pods Frameworks */,
+				722D9B17D431A060CD4A65BE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,11 +440,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "陈齐涛";
 				TargetAttributes = {
 					AF11946C1DD2F5CD00FA9248 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 695WRBM54D;
 						ProvisioningStyle = Automatic;
 					};
 					AF1194801DD2F5CE00FA9248 = {
@@ -233,8 +486,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF11947B1DD2F5CE00FA9248 /* LaunchScreen.storyboard in Resources */,
+				AF595C161E1C9F660026937C /* QTListHomeTableViewCell.xib in Resources */,
+				AF1194B41DD2FBED00FA9248 /* QTHomeViewController.storyboard in Resources */,
+				AFD9EB6A1E1B504F00AA5117 /* index.json in Resources */,
+				AF1194BE1DD2FD7F00FA9248 /* QTMessageViewController.storyboard in Resources */,
 				AF1194781DD2F5CE00FA9248 /* Assets.xcassets in Resources */,
 				AF1194761DD2F5CE00FA9248 /* Main.storyboard in Resources */,
+				AF1194C01DD2FD9500FA9248 /* QTMineViewController.storyboard in Resources */,
+				AF1194BC1DD2FD6B00FA9248 /* QTDiscoverViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +513,159 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6E1DC855C2159A7A1A9E3506 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		722D9B17D431A060CD4A65BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bantangUITests/Pods-bantangUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8135A034ED6F102412BE4F2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bantangTests/Pods-bantangTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E2CCB2D6A8FFD43EB0A4CDE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bantangTests/Pods-bantangTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0CCE52DA7EF8A731BD1BE8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D408126431A747CD214A457E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bantang/Pods-bantang-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E76F96BCA95D146729A097D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bantang/Pods-bantang-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E79CE9FACD5CBFB624BB8EF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FE817B54A3CAC2F3D4C9CF8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bantangUITests/Pods-bantangUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AF1194691DD2F5CD00FA9248 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF1194B01DD2FA7D00FA9248 /* QTBaseViewController.swift in Sources */,
+				AFD9EB6C1E1B511B00AA5117 /* QTHomeModel.swift in Sources */,
+				AF1194B81DD2FC9900FA9248 /* QTMessageViewController.swift in Sources */,
 				AF1194731DD2F5CD00FA9248 /* ViewController.swift in Sources */,
+				AF1194B61DD2FC2A00FA9248 /* QTDiscoverViewController.swift in Sources */,
+				AF595C151E1C9F660026937C /* QTListHomeTableViewCell.swift in Sources */,
+				AF1194B21DD2FB1500FA9248 /* QTHomeViewController.swift in Sources */,
 				AF1194711DD2F5CD00FA9248 /* AppDelegate.swift in Sources */,
+				AF5F5D731E1B7F00000BA8C7 /* Common.swift in Sources */,
+				AF1194BA1DD2FCA900FA9248 /* QTMineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +738,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -382,6 +788,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -408,8 +815,10 @@
 		};
 		AF1194961DD2F5CE00FA9248 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 555C160D20559EDCBD083227 /* Pods-bantang.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 695WRBM54D;
 				INFOPLIST_FILE = bantang/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chenqitao.bantang;
@@ -420,8 +829,10 @@
 		};
 		AF1194971DD2F5CE00FA9248 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71EC0F6668AB0326BB36D3F2 /* Pods-bantang.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 695WRBM54D;
 				INFOPLIST_FILE = bantang/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chenqitao.bantang;
@@ -432,6 +843,7 @@
 		};
 		AF1194991DD2F5CE00FA9248 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EE6F46AC6EF4F8CB9AF5CBF /* Pods-bantangTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -446,6 +858,7 @@
 		};
 		AF11949A1DD2F5CE00FA9248 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2090E97C6981DB83690E0F7 /* Pods-bantangTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +873,7 @@
 		};
 		AF11949C1DD2F5CE00FA9248 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B53E1F4D814CB8615A84F976 /* Pods-bantangUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = bantangUITests/Info.plist;
@@ -473,6 +887,7 @@
 		};
 		AF11949D1DD2F5CE00FA9248 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A66FBC98B1243A67646B16D /* Pods-bantangUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = bantangUITests/Info.plist;
@@ -503,6 +918,7 @@
 				AF1194971DD2F5CE00FA9248 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF1194981DD2F5CE00FA9248 /* Build configuration list for PBXNativeTarget "bantangTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +927,7 @@
 				AF11949A1DD2F5CE00FA9248 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF11949B1DD2F5CE00FA9248 /* Build configuration list for PBXNativeTarget "bantangUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +936,7 @@
 				AF11949D1DD2F5CE00FA9248 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
